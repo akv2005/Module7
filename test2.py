@@ -5,3 +5,5 @@ with open(file_name, mode='r', encoding='utf8') as file:
     print(file_name)
     file_cont = file.read()
     print(file_cont)
+
+print(file.closed)
